@@ -11,20 +11,16 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 		<title>Index JSP</title>
 	</head>
-	<body style="background-color: #3EC9C7 !important;">
+		<body>
 		
-		<a href="goToCriarCliente">Criar Cliente</a> 
-		<br><br><br>
-		<a href="goToCriarProduto">Criar Produto</a>
-		<br><br><br>
-		<a href="goToCriarPedido">Criar Pedido</a>
-		<br><br><br>
-		<hr>
-		<a href="listarClientes">Clientes</a>
-		<br><br><br>
-		<a href="goToProdutos">Produtos</a>
-		<br><br><br>
-		<a href="goToPedidos">Pedidos</a>	
-			
+		<h2>Máquina de Turing JAVA</h2><br>
+		
+		USJT - CCP3BN - Noite - Mooca<br><br>
+		
+		Paulo Guilherme da Silva [816113977]<br>
+		Otávio Augusto Soares Costa [816113977]<br>
+		Ian [816113977]<br>
+		Arthur [816113977]<br>
+
 	</body>
 </html>

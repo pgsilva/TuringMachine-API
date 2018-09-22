@@ -22,24 +22,12 @@ public class FitaController {
 	@Autowired
 	private FitaService fitaService;
 
-	@RequestMapping("/goToCriarCliente")
-	public String goToCriarCliente(Model model) {
-		try {
-
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-
-		return "criaCliente";
-	}
-
 	@Transactional
 	@RequestMapping(method = RequestMethod.POST, value = "api/verificaFita")
 	public ResponseEntity<ResultadoFormDTO> verificaFita(@RequestBody FitaDTO fita) {
 		try {
-			ResultadoFormDTO form =
-					fitaService.verificaFita(fita);
-		
+			ResultadoFormDTO form = fitaService.verificaFita(fita);
+
 			return new ResponseEntity<>(form, HttpStatus.OK);
 		} catch (Exception e) {
 			e.printStackTrace();
