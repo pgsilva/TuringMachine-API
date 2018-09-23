@@ -30,19 +30,19 @@ public class TuringMachine {
 	public void lerFita(ResultadoFormDTO result, List<CelulaDTO> fita, Integer indice) {
 		if (fita.size() - 1 == 10) {
 
-			String label = "LigaÁ„o FranÁa para FranÁa";
+			String label = "Liga√ß√£o Fran√ßa para Fran√ßa";
 			result.setIdentificacao(label);
 
 			validaLigacaoFrancaToFranca(result, fita, indice);
 		} else if (fita.size() - 1 > 10) {
 
-			String label = "LigaÁ„o Internacional para FranÁa";
+			String label = "Liga√ß√£o Internacional para Fran√ßa";
 			result.setIdentificacao(label);
 
 			validaLigaaoInternacionalToFranca(result, fita, indice);
 		} else {
 
-			String label = "Chamada inv·lida";
+			String label = "Chamada inv√°lida";
 			result.setIdentificacao(label);
 		}
 	}

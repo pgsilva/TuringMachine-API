@@ -9,9 +9,9 @@ http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
 			<property name="javax.persistence.jdbc.url"
-				value="jdbc:mysql://localhost/turingMachine?createDatabaseIfNotExist=true&amp;useUnicode=yes&amp;characterEncoding=UTF-8" />
-			<property name="javax.persistence.jdbc.user" value="root" />
-			<property name="javax.persistence.jdbc.password" value="" />
+				value="jdbc:mysql://sql10.freemysqlhosting.net:3306/sql10258101?createDatabaseIfNotExist=true&amp;useUnicode=yes&amp;characterEncoding=UTF-8" />
+			<property name="javax.persistence.jdbc.user" value="sql10258101" />
+			<property name="javax.persistence.jdbc.password" value="fRJMfWCTAd" />
 
 			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
 			<property name="hibernate.show_sql" value="true" />
