@@ -48,7 +48,11 @@ public class TuringMachine {
 	}
 
 	private void validaLigaaoInternacionalToFranca(ResultadoFormDTO result, List<CelulaDTO> fita, Integer indice) {
+		if(indice <= fita.size()-1){
+		
 		CelulaDTO celula = fita.get(indice);
+		
+	
 		if (indice != null && celula != null) {
 			if (!"".equals(celula.getEstado())) {
 				if ((indice.equals(0) || indice.equals(1)) && "0".equals(celula.getEstado())) {
@@ -84,6 +88,7 @@ public class TuringMachine {
 
 			result.setMsg("Fita Finalizada");
 
+		}
 		}
 	}
 
